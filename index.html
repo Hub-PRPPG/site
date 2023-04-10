@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pró-Reitoria de Pesquisa e Pós-Graduação</title>
+    <link rel="icon" type="image/x-icon" href="img/Favicon Azul.ico">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/noticias.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/cursos.css">
+    <link rel="stylesheet" href="css/coordenacoes.css">
+    <link rel="stylesheet" href="css/prppg.css">
+    <link rel="stylesheet" href="css/galeria.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Inter:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!--Menu-->
+    <div class="container">
+        <header class="row">
+            <div class="col-2">
+                <img id="logomarca" src="img/Marca PRPPG - Azul.png" alt="">
+            </div>
+
+            <div id="menu" class="col-10">
+                <nav>
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link active  dropdown-toggle" aria-current="page" href="#">A PRPPG</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Editais</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Grupos de Pesquisa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Institutos Nacionais de Ciência, Tecnologia e Inovação</a>
+                        </li>
+
+                        <button id="btn-contato" type="button" class="btn "> <i class="bi bi-envelope"></i>
+                            Contato</button>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </div>
+
+    <!--Banner-->
+    <div id="banner" class="container-fluid">
+        <div class="container">
+            <div id="banner-texto" class="row">
+                <div class="col-6">
+                    <h1>UFBA supera metas de expansão e qualidade da pós-graduação, aponta avaliação da Capes</h1>
+                    <h3 class="display-3">A pós-graduação na UFBA melhorou em qualidade e abrangência, com avanços
+                        significativos em todas as áreas do conhecimento, entre 2017 e 2020, conforme os dados
+                        preliminares da Avaliação Quadrienal da Capes recém-divulgados. </h3>
+                    <button>Veja Mais</button>
+                </div>
+
+                <div id="banner-imagem" class="col-6">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--
+    <div class="container">
+        <div class="row">
+            <div id="main-coordenacao" class="col-12">
+                <h2 class="chamadas">Cursos</h2>
+            </div>
+        </div>
+    </div>Chamada-->
+
+    <!--Cursos-->
+    <div class="container">
+        <div class=" main-curso  row">
+            <div id="container-cards" class="col">
+                <div class="col-4 card-noticia">
+                    <div>
+                        <div id="img-card1">
+                          <h2 id="card-text"></h2>
+                        </div>
+                    </div>
+                    
+                    <p>Modalidade de Pós-Graduação stricto sensu voltada para a capacitação de profissionais, nas
+                        diversas áreas do conhecimento, mediante o estudo de técnicas, processos, ou temáticas que
+                        atendam a alguma demanda do mercado de trabalho.</p>
+                    <p> <i class="bi bi-arrow-right-circle"></i> Mais Informações</p>
+                </div>
+
+                <div class="col-4 card-noticia">
+                    <div id="img-card2">
+                       <h2 id="card-text"></h2>
+                    </div>
+                   
+                    <p>Mestrado Acadêmico:Pós-Graduação voltada para o ensino e pesquisa. Oferece o título de mestre em
+                        determinado campo do saber, portanto é um curso direcionado a quem deseja lecionar.</p>
+                    <p> <i class="bi bi-arrow-right-circle"></i> Mais Informações</p>
+                </div>
+
+
+                <div class="col-4 card-noticia">
+                    <div id="img-card3">
+                        <h2 id="card-text"></h2>
+                    </div>
+
+                    <p>Curso voltado para formação de pesquisadores, dedicado exclusivamente a vida acadêmica e que
+                        busca o aprofundamento em determinado campo do saber. Para obtenção do título é obrigatório a
+                        defesa de tese.</p>
+                    <p> <i class="bi bi-arrow-right-circle"></i> Mais Informações</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Chamada
+    <div class="container">
+        <div class="row">
+            <div id="main-coordenacao" class="col-12">
+                <h2 class="chamadas">Coordenações</h2>
+            </div>
+        </div>
+    </div>-->
+
+   <!--Carrossel Destaques-->
+   <div class="container">
+    <div class="gallery-wrapper row">
+       <div class="gallery col-12">
+         <button class="seta-direita"><i class="bi bi-chevron-right"></i></button>
+         <button class="seta-esquerda"><i class="bi bi-chevron-left"></i></button>
+    
+
+         <div id="card-destaque1" class="col-3" >         
+         </div>
+         
+         <div id="card-destaque2" class="col-3" >         
+         </div>
+
+         <div id="card-destaque3" class="col-3" >         
+         </div>
+
+         <div id="card-destaque4" class="col-3" >         
+         </div>
+
+         <div id="card-destaque5" class="col-3" >         
+         </div>
+
+         <div id="card-destaque6" class="col-3" >         
+         </div>
+
+         <div id="card-destaque7" class="col-3" >         
+         </div>
+     </div>
+         
+
+    </div>
+
+
+</div>
+
+
+
+
+    <!--Coordenações-->
+    <div class="container">
+        <div id="coordenacoes-line1" class="row">
+            <div id="main-cards-one" class="col">
+                <div id="card-coordenacao" class="col-4">
+                    <div class="icon-lg bg-success  bg-opacity-10 text-success rounded-circle"><i class="bi bi-currency-dollar"></i></div>
+                    <h5><strong>Coordenação de Fomento</strong></h5> 
+                    <p>Happiness prosperous impression had conviction For every delay in they Extremity now.</p>
+                    <p> <i class="bi bi-arrow-right-circle"></i> Mais Informações</p>
+                </div>
+
+                <div id="card-coordenacao" class="col-4">
+                    <div class="icon-lg bg-warning bg-opacity-10 text-warning-emphasis rounded-circle"><i class="bi bi-search"></i></div>
+                    <h5><strong>Coordenação de Pesquisa</strong></h5> 
+                    <p>Happiness prosperous impression had conviction For every delay in they Extremity now.</p>
+                    <p> <i class="bi bi-arrow-right-circle"></i> Mais Informações</p>
+                </div>
+
+                <div id="card-coordenacao" class="col-4">
+                    <div class="icon-lg bg-info bg-opacity-10 text-info rounded-circle"><i class="bi bi-people-fill"></i></div>
+                    <h5><strong>PIBIC</strong></h5> 
+                    <p>O Programa Institucional de Bolsas de Iniciação Científica (PIBIC) visa apoiar a política de Iniciação Científica</p>
+                    <p> <i class="bi bi-arrow-right-circle"></i> Mais Informações</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="coordenacoes-line2" class="row">
+            <div id="main-cards-two" class="col">
+                <div id="card-coordenacao" class="col-4">
+                    <div class="icon-lg bg-danger  bg-opacity-10 text-danger  rounded-circle"><i class="bi bi-mortarboard-fill"></i></div>
+                    <h5><strong>Coordenação de Ensino</strong></h5> 
+                    <p>Happiness prosperous impression had conviction For every delay in they Extremity now.</p>
+                    <p> <i class="bi bi-arrow-right-circle"></i> Mais Informações</p>
+                </div>
+
+                <div id="card-coordenacao" class="col-4">
+                    <div class="icon-lg bg-primary bg-opacity-10 text-primary rounded-circle"><i class="bi bi-rocket-takeoff"></i></div>
+                    <h5><strong>Coordenação de Inovação</strong></h5> 
+                    <p>Happiness prosperous impression had conviction For every delay in they Extremity now.</p>
+                    <p> <i class="bi bi-arrow-right-circle"></i> Mais Informações</p>
+                </div>
+
+                <div id="card-coordenacao" class="col-4">
+                    <div class="icon-lg bg-primary bg-opacity-10 text-primary-emphasis rounded-circle"><i class="bi bi-person-workspace"></i></div>
+                    <h5><strong>Coordenação Administrativa</strong></h5> 
+                    <p>Happiness prosperous impression had conviction For every delay in they Extremity now.</p>
+                    <p> <i class="bi bi-arrow-right-circle"></i> Mais Informações</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+
+
+
+
+
+
+</body>
+
+</html>

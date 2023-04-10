@@ -1,0 +1,46 @@
+*{
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+}
+
+p{
+    font-size:14px;
+}
+
+body{
+    background-color:#F9FAFB;
+}
+
+
+#menu{
+    display: flex;
+    align-items: center;
+}
+
+#menu ul li{
+    padding: 25px;
+}
+
+.chamadas{
+    font-size: 42px;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    line-height: 1.25;
+    color: var(--bs-heading-color, inherit);
+}
+
+#main-coordenacao{
+    margin-top: 48px;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+

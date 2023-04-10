@@ -1,0 +1,61 @@
+#card{
+    margin-top: 40px;
+}
+
+.main-curso{
+    margin-bottom: 40px;  
+}
+
+.card-noticia{
+    margin-top: 30px;
+    border: 1px solid #dee2e6;
+    margin-right: 10px;
+}
+
+.card-noticia img{
+    width: 100%;
+}
+
+.card-noticia p{
+    padding:10px;
+    color: black;
+    font-size:14px;
+}
+
+
+#img-card1{
+    position: relative;
+    background-image:url("../img/Noticia\ 1\ -\ Overlay.png");
+    background-size: cover;
+    height:250px;
+}
+
+#img-card2{
+    position: relative;
+    background-image:url("../img/Noticia\ 2\ -\ Overlay.png");
+    background-size: cover;
+    height:250px;
+}
+
+
+#img-card3{
+    position: relative;
+    background-image:url("../img/Noticia\ 3\ -\ Overlay.png");
+    background-size: cover;
+    height:250px;
+}
+#card-text{
+    line-height: 40px;
+    position:absolute;
+    text-transform: uppercase;
+    font-size:35px;
+    color: #fff;
+    font-weight: bolder;
+    left: 20px;
+    bottom: 0;
+}
+
+#container-cards{
+    display: flex;
+}
+

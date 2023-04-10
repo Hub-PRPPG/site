@@ -1,0 +1,32 @@
+*{
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+}
+
+p{
+    font-size:14px;
+}
+
+body{
+    background-color:#F9FAFB;
+}
+
+
+#menu{
+    display: flex;
+    align-items: center;
+}
+
+#menu ul li{
+    padding: 25px;
+}
+
+
+
+
+
+
+
+
+
+
