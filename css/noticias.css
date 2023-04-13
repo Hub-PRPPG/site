@@ -1,0 +1,12 @@
+.titulo-destaque{
+    font-weight:400;
+    font-size:20px
+}
+
+.titulo-secundario{
+    font-size:20px
+}
+
+#imagem-noticias{
+    border-radius: 15px;
+}
