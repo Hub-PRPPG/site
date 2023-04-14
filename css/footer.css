@@ -1,0 +1,11 @@
+#footer-main{
+    background-color: #303C59;
+}
+
+#redes-sociais{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
