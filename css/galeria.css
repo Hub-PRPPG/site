@@ -6,8 +6,7 @@
 }
 
 .gallery-wrapper{
-    
-    margin-top:100px;
+    margin-top:50px;
 }
 
 
@@ -19,7 +18,7 @@
 }
 
 #card-destaque2{
-    background-image:url("../img/Hub.png");
+    background-image:url("../img/hub3.png");
     background-size:cover;
     height:200px;
     border-radius: 15px;
@@ -110,6 +109,5 @@
     line-height: 2.625rem;
     text-align: center;
     z-index: 10;
-
-
 }
+

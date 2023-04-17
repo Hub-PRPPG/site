@@ -1,11 +1,20 @@
-#footer-main{
-    background-color: #303C59;
-}
-
-#redes-sociais{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+#footer-linha{
+    background-color:#071d41;
+    padding: 50px;
     
 }
 
+.rede-social{
+    display: flex;
+    align-items:center;
+    justify-content: end;
+}
+
+.rede-social-main{
+    display: flex;
+    align-items: center;
+}
+
+#endereco h4{
+  color: #ffffff;
+}
