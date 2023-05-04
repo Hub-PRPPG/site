@@ -1,3 +1,8 @@
+.mais-info{
+    position: absolute;
+    bottom: 15px;
+}
+
 #coordenacoes-line1{
     margin-top:40px;
     margin-bottom: 0px;
@@ -8,6 +13,7 @@
 }
 
 #card-coordenacao{
+    position: relative;
     display: inline-block;
     align-items: center;
     margin-right: 10px;

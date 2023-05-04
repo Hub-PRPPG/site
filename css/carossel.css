@@ -1,0 +1,113 @@
+.gallery{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 15px;
+    overflow-x: hidden;
+}
+
+.gallery-wrapper{
+    margin-top:50px;
+}
+
+
+#card-destaque1{
+    background-image:url("../img/Importação.jpg");
+    background-size:cover;
+    height:200px;
+    border-radius: 15px;
+}
+
+#card-destaque2{
+    background-image:url("../img/hub3.png");
+    background-size:cover;
+    height:200px;
+    border-radius: 15px;
+}
+
+
+#card-destaque3{
+    background-image:url("../img/Plane.jpg");
+    background-size:cover;
+    height:200px;
+    border-radius: 15px;
+}
+
+
+#card-destaque4{
+    background-image:url("../img/Vector_2646.jpg");
+    background-size:cover;
+    height:200px;
+    border-radius: 15px;
+}
+
+
+#card-destaque5{
+    background-image:url("../img/Carrossel\ 5.jpg");
+    background-size:cover;
+    height:200px;
+    border-radius: 15px;
+}
+
+
+#card-destaque6{
+    background-image:url("../img/Carrossel\ 6.jpg");
+    background-size:cover;
+    height:200px;
+    border-radius: 15px;
+}
+
+
+#card-destaque7{
+    background-image:url("../img/Carrossel\ 7.jpg");
+    background-size:cover;
+    height:200px;
+    border-radius: 15px;
+}
+
+.gallery img{
+    border: 1px solid rgb(238, 233, 233);
+    border-radius: 15px;
+    height:240px;
+    box-shadow: 0px 0px 40px rgba(29, 58, 83, 0.1);
+}
+
+.gallery-wrapper{
+    position: relative;
+    padding: 15px;
+    overflow-x: auto;
+}
+
+.seta-direita{
+    position: absolute;
+    right:0;
+    top: 50%;  
+    width: 2.75rem;
+    height: 2.75rem;
+    margin-top: -1.375rem;
+    transition: all .3s ease-in-out;
+    border: 1px solid #e3e9ef;
+    border-radius: 50%;
+    background-color: #fff;
+    font-size: .8085rem;
+    line-height: 2.625rem;
+    text-align: center;
+    z-index: 10;
+}
+
+.seta-esquerda{
+    position: absolute;
+    left:0;
+    top: 50%;  
+    width: 2.75rem;
+    height: 2.75rem;
+    margin-top: -1.375rem;
+    transition: all .3s ease-in-out;
+    border: 1px solid #e3e9ef;
+    border-radius: 50%;
+    background-color: #fff;
+    font-size: .8085rem;
+    line-height: 2.625rem;
+    text-align: center;
+    z-index: 10;
+}
+
