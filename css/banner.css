@@ -1,12 +1,13 @@
-#banner{
-    background-image: url("../img/Artboard_1.png");
-    background-size: cover;
-    height: 582px;
-}
-
 #banner-texto{
     display:flex;
     align-items: center;
+}
+
+.banner-topico{
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 1.1;
 }
 
 #banner-texto h1{
@@ -20,7 +21,7 @@
     font-size: 20px;
 }
 
-#banner-texto button{
+#btn-banner{
     margin-top: 20px;
     color: #ffffff;
     background-color: #1B4E86;
@@ -31,8 +32,15 @@
     font-size: 16px;
 }
 
-#banner-imagem{
-    background-image: url("../img/Image3.png");
+#banner-slider1{
+    background-image: url("../img/Image5.png");
+    background-size: cover;
+    height: 582px;
+}
+
+
+#banner-slider2{
+    background-image: url("../img/Slider\ 2.2.png");
     background-size: cover;
     height: 582px;
 }

@@ -1,20 +1,9 @@
-#footer-linha{
-    background-color:#071d41;
-    padding: 50px;
-    
+#footer-color{
+    height: 250px;
+    background-color: #071d41;
 }
 
-.rede-social{
+#footer-content{
     display: flex;
     align-items:center;
-    justify-content: end;
-}
-
-.rede-social-main{
-    display: flex;
-    align-items: center;
-}
-
-#endereco h4{
-  color: #ffffff;
 }
