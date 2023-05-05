@@ -1,9 +1,21 @@
-#footer-color{
-    height: 250px;
-    background-color: #071d41;
+footer{
+    background-color:#071d41;
 }
 
-#footer-content{
-    display: flex;
-    align-items:center;
+span {
+    color: white;
+}
+
+footer li {
+    color: white;
+}
+
+
+
+footer h5{
+    color: white;
+}
+
+footer a {
+    color: white;
 }
